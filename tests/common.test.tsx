@@ -5,6 +5,6 @@ import { FilePicker } from '../src'
 
 describe('Common render', () => {
   it('renders without crashing', () => {
-    render(<FilePicker onUpload={(imageUrl) => console.log("Uploaded:", imageUrl)} />)
+    render(<FilePicker onUpload={(imageUrl) => console.log('Uploaded:', imageUrl)} />)
   })
 })

@@ -1,3 +1,3 @@
-import FilePicker from "./components/FilePicker";
+import FilePicker from './components/FilePicker'
 
-export { FilePicker };
+export { FilePicker }
